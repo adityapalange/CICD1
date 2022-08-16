@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         mAMBinding.sayHelloButton.setOnClickListener(view ->{
             String helloMessage = mAMBinding.nameEditText.getText().toString().trim();
-            mAMBinding.helloTextView.setText(helloMessage);
+            mAMBinding.helloTextView.setText(helloMessage + "!! How are you today?");
         });
 
 
